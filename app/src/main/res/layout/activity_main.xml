@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.w0178837.fileioinclass.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="366dp"
+        android:layout_height="498dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/txtBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="94dp"
+            android:layout_above="@+id/btnSave"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="84dp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSave"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="179dp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/btnLoad"
+            android:layout_alignStart="@+id/btnLoad" />
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLoad"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="263dp"
+            android:layout_below="@+id/btnSave"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

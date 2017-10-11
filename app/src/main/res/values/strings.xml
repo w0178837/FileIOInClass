@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FileIOInClass</string>
+    <string name="btnSave">Save</string>
+    <string name="btnLoad">Load</string>
+</resources>
